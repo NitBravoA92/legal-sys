@@ -1,6 +1,6 @@
 <!--
 =========================================================
-* Legal Sys - v1.0.3
+* Legal Sys - v1.0.0
 =========================================================
 
 * Copyright 2022. Modern Solutions Group (https://modernsolutionsgroup.net/)
