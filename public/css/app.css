@@ -1,0 +1,188 @@
+h1, h2, h3, h4, h5, h6, p, a, button, span, label, input, select, textarea td, th, li, small, b, strong {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.language-dropdown .dropdown-menu
+{
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+}
+.language-dropdown .dropdown-menu .dropdown-item {
+    padding: .3rem .5rem;
+}
+.language-dropdown .dropdown-menu .dropdown-item h6 {
+    margin-bottom: 0 !important;
+}
+.language-dropdown .dropdown-menu .active, #user-notifications-navlist .dropdown-menu .active {
+    background-color: #e9ecef;
+    color: #344767;
+}
+
+.text-upp
+{
+    text-transform: uppercase !important;
+}
+.btn-guest i {
+    font-size: .9rem !important;
+}
+
+.register-page-container .page-header{
+    background-size: 100% 100% !important;
+}
+.avatar-sm-user-navbar
+{
+    font-size: .875rem;
+    height: 28px!important;
+    width: 28px!important;
+    border-radius: 0.95rem !important;
+}
+.font-w-600 {
+    font-weight: 600 !important;
+}
+.text-upp{
+    text-transform: uppercase !important;
+}
+.text-low{
+    text-transform: lowercase !important;
+}
+.text-cap{
+    text-transform: capitalize !important;
+}
+.avatar-xl-80{
+    height: 80px !important;
+}
+.service-subtitle {
+    font-size: 12px !important;
+    font-style: italic;
+}
+.service-title
+{
+    border: none;
+}
+.pagination-container .pagination {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.pagination .page-item .page-link
+{
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+.pagination .page-item.active .page-link
+{
+    background-image: linear-gradient(310deg,#141727,#3a416f) !important;
+    border: none !important;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+    background-image: none !important;
+}
+
+#documents-order-list .bb-1, #notifications-tab-content .bb-1, #clients-documents-order-list .bb-1, .border-bottom-list .bb-1{
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.ls-none {
+    list-style: none !important;
+}
+
+#notification-message{
+    resize: none !important;
+}
+
+.icon-x8{
+    font-size: 0.8rem !important;
+    top: -2px !important;
+}
+
+.card-fixed-height{
+    min-height: 800px;
+    max-height: 800px;
+    height: 800px;
+}
+
+.card .card-body table{
+    height: 100% !important;
+}
+
+.dropdown .dropdown-toggle:after, .dropend .dropdown-toggle:after, .dropstart .dropdown-toggle:after, .dropup .dropdown-toggle:after{
+    border: none !important;
+    content: "" !important;
+    font: normal !important;
+    font-weight: 400;
+}
+
+@media (min-width: 992px){
+    .dropdown-table:not(.dropdown-hover) .dropdown-menu {
+        margin-top: 3px!important;
+    }
+}
+
+.docs-tab-fx {
+    height: 250px !important;
+    overflow-y: scroll !important;
+    width: 100%;
+}
+
+.notif-tab-fx {
+    height: 400px !important;
+    overflow-y: scroll !important;
+    width: 100%;
+}
+
+.client-cards-fx {
+    height: 450px !important;
+    overflow-y: scroll !important;
+}
+
+.min-height-card {
+    min-height: 1000px !important;
+}
+
+/* datatable styles */
+.dataTables_info, .dataTables_paginate {
+    padding-top: 1.5rem !important;
+}
+.dataTables_info{
+    font-size: 0.8rem !important;
+}
+
+.lh-8
+{
+    line-height: 0.8;
+}
+
+/* navbar */
+.bg-white-fx {
+    box-shadow: inset 0 0 1px 1px hsla(0,0%,100%,.9),0 20px 27px 0 rgba(0,0,0,.05) !important;
+    backdrop-filter: saturate(200%) blur(30px) !important;
+    background-color: hsla(0,0%,100%,.9) !important;
+}
+
+/*
+.dataTables_paginate .previous .page-link:before
+{
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  content: "\f053" !important;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dataTables_paginate .next .page-link:before
+{
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  content: "\f054" !important;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+*/
+
